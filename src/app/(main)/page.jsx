@@ -1,11 +1,12 @@
 // import Image from "next/image";
 
-import SideMenuBar from "./components/navigaton/sideMenuBar";
+
+import SideMenuBar from "../components/navigaton/sideMenuBar";
 
 export default function Home() {
   return (
     <>
-      <SideMenuBar/>
+      <h1>This is the main route</h1>
     </>
   )
     
